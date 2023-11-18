@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Tutorial_1_exercise",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Tutorial_1_exercise::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Tutorial_1_exercise-Debug-20c2fde71179d44d5ddc.json",
+					"name" : "Tutorial_1_exercise",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/ales2/Desktop/Adcance Programming in C/Homework/Tutorial 1 exercise A/cmake-build-debug",
+		"source" : "C:/Users/ales2/Desktop/Adcance Programming in C/Homework/Tutorial 1 exercise A"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
