@@ -74,7 +74,7 @@ vector<vector<int>> mulPar(const vector<vector<int>>& MatrixA, const vector<vect
     for (int i = 0; i < r1; ++i) {
         for (int j = 0; j < c2; ++j) {
             for (int k = 0; k < c1; ++k) {
-                #pragma omp atomic
+                //#pragma omp atomic
                 result[i][j] += MatrixA[i][k] * MatrixB[k][j];
             }
         }
