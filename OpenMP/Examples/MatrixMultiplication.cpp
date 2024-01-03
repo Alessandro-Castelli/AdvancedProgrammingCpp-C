@@ -94,7 +94,7 @@ bool compare(const vector<vector<int>> MatrixA, const vector<vector<int>> Matrix
     for (int i = 0; i < r1; ++i) {
         for (int j = 0; j < c1; ++j) {
             if (MatrixA[i][j] != MatrixB[i][j]){
-                cout<<"\nnella riga "<< i <<" colonna " <<j <<endl;
+                cout<<"\n In the row "<< i <<" column " <<j <<endl;
                 return false;
             }
         }
@@ -141,7 +141,7 @@ int main()
         double start_yes_omp = omp_get_wtime();
         vector<vector<int>> result2 = mulPar(MatrixA,MatrixB,t);
         double stop_yes_omp = omp_get_wtime();
-        cout << "\nPar time: " << (stop_yes_omp - start_yes_omp) << " secondsm with " << t << " threads"<< endl;
+        cout << "\nPar time: " << (stop_yes_omp - start_yes_omp) << " seconds with " << t << " threads"<< endl;
         bool b =  compare(result,result2);
 
         if (b)
@@ -151,6 +151,5 @@ int main()
         cout<<"\n\nWrong";
         }
     }
-    
     return 0;
 }
