@@ -52,4 +52,5 @@ What you can see above are the results that you can see in the terminal when you
 
 - The function **mulPar(const vector<vector<int>>& MatrixA, const vector<vector<int>>& MatrixB, int t)** performs matrix multiplication using **OpenMP**, reducing the execution time.
 
-- I created the function **compare(const vector<vector<int>> MatrixA, const vector<vector<int>> MatrixB)** to verify the correctness of the multiplication. It takes the matrices resulting from sequential and parallel multiplication and checks if they are equal.
+- I created the function **compare(const vector<vector<int>> MatrixA, const vector<vector<int>> MatrixB)** to verify the correctness of the multiplication. 
+It takes the matrices resulting from sequential and parallel multiplication and checks if they are equal.

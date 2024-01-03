@@ -18,12 +18,11 @@ vector<long long int> eratosthenes(long long int max) {
             }
         }
     }
-
     return primes;
 }
 
 vector<long long int> eratosthenesPar(long long int n,int t) {
-    vector<int> prime(n + 1, 1); // Inizializza tutti come numeri primi
+    vector<int> prime(n + 1, 1); 
     vector<long long int> result;
     const int end_p = sqrt(n);
 
@@ -32,11 +31,10 @@ vector<long long int> eratosthenesPar(long long int n,int t) {
     for (int p = 2; p <= end_p; p++) {
         if (prime[p] == 1) {
             for (int i = p * p; i <= n; i += p) {
-                prime[i] = 0; // Segna i multipli di p come non primi
+                prime[i] = 0; 
             }
         }
     }
-
 
     for (int p = 2; p <= n; p++) {
         if (prime[p] == 1) {
@@ -53,7 +51,6 @@ int main()
     cout<<"Insert the maximum number of the Eratosthenes series: ";
     cin>>max;
 
-
     cout<<"\n\n...Calculate Seq Time...\n";
     double start_no_omp = omp_get_wtime();
     vector<long long int> res = eratosthenes(max);
@@ -66,7 +63,6 @@ int main()
         vector<long long int> res2 = eratosthenesPar(max,t);
         double stop = omp_get_wtime();
         cout<<"\n\n...The Par Time With "<<t<<" Threads is: "<<stop-start<<"seconds"<<endl;
-        // sort(res2.begin(), res2.end());
 
             if (res == res2) {
                 cout << "\n\nThe results are correct.\n\n";
@@ -75,7 +71,6 @@ int main()
                 return 1;
             }
     }
-
 
     return 0;
 }
