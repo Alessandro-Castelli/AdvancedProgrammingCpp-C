@@ -6,6 +6,9 @@
 #include <algorithm>
 using namespace std;
 
+/**
+ * Sequential Eratosthenes Method
+*/
 vector<long long int> eratosthenes(long long int max) {
     vector<bool> is_prime(max, true);
     vector<long long int> primes;
@@ -21,6 +24,9 @@ vector<long long int> eratosthenes(long long int max) {
     return primes;
 }
 
+/**
+ * Parallel Eratosthenes Method
+*/
 vector<long long int> eratosthenesPar(long long int n,int t) {
     vector<int> prime(n + 1, 1); 
     vector<long long int> result;

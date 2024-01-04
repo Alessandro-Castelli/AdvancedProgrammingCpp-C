@@ -1,4 +1,4 @@
-/**
+/*
  * I have executed this code multiple times with various initial matrix sizes.
  * For an input where the matrices are of size 2000 x 2000, the sequential execution time is approximately 190 seconds.
  * When transitioning from a sequential implementation to a parallel one, a significant improvement in execution times can be observed. 
@@ -15,7 +15,8 @@
 using namespace std;
 
 /**
- * This method takes as input the number of rows and columns I want in the matrix and creates a matrix of the desired size filled with random values ranging from 0 to 99.
+ * This method takes as input the number of rows and columns 
+ * I want in the matrix and creates a matrix of the desired size filled with random values ranging from 0 to 99.
 */
 vector<vector<int>> makeMatrix(int rows, int columns) {
     

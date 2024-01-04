@@ -5,13 +5,13 @@
 #include <ctime>
 using namespace std;
 
-void fillRandomNumbers(std::vector<int>& arr, int size) {
+void fillRandomNumbers(vector<int>& arr, int size) {
     for (int i = 0; i < size; ++i) {
         arr.push_back(rand() % 100); 
     }
 }
 
-void bubbleSort(std::vector<int>& arr) {
+void bubbleSort(vector<int>& arr) {
     int n = arr.size();
 
     for (int i = 0; i < n - 1; ++i) {
@@ -29,7 +29,7 @@ void exchange(int &a, int &b) {
     b = temp;
 }
 
-void bubbleSortParallel(std::vector<int>& arr, int t) {
+void bubbleSortParallel(vector<int>& arr, int t) {
     int n = arr.size();
     omp_set_num_threads(t);
    for (int k = 0; k < n-1; k++) {
@@ -59,13 +59,13 @@ void bubbleSortParallel(std::vector<int>& arr, int t) {
 
 int main() {
 
-    std::srand(std::time(nullptr));
+    srand(time(nullptr));
 
     int size;
-    std::cout << "Insert Input: ";
-    std::cin >> size;
+    cout << "Insert Input: ";
+    cin >> size;
 
-    std::vector<int> arr;
+    vector<int> arr;
     fillRandomNumbers(arr, size);  
 
     vector<int> arr1 = arr;
@@ -83,7 +83,7 @@ int main() {
         double start = omp_get_wtime();
         bubbleSortParallel(arr2,t);
         double stop = omp_get_wtime();
-        cout << "\nPar time, with  " << t << "Threads " << (stop - start) << " seconds\n" << endl;
+        cout << "\nPar time, with  " << t << " Threads " << (stop - start) << " seconds\n" << endl;
     
         if(arr1==arr2){
             cout<<"True"<<endl;
