@@ -1,5 +1,5 @@
 # Performance BubbleSort
-Below, you will find the results you could see in the terminal when entering an input of: 1000000
+Below, you will find the results you could see in the terminal when entering an input of: 100000
 
 ```bash
 Insert Input: 100000
@@ -8,40 +8,40 @@ Insert Input: 100000
 
 Seq time: 56.355 seconds
 
-Par time, with  1Threads 45.98 seconds
+Par time, with  1 Threads 45.98 seconds
 True
 
-Par time, with  2Threads 15.395 seconds
+Par time, with  2 Threads 15.395 seconds
 True
 
-Par time, with  3Threads 13.134 seconds
+Par time, with  3 Threads 13.134 seconds
 True
 
-Par time, with  4Threads 12.467 seconds
+Par time, with  4 Threads 12.467 seconds
 True
 
-Par time, with  5Threads 12.973 seconds
+Par time, with  5 Threads 12.973 seconds
 True
 
-Par time, with  6Threads 13.234 seconds
+Par time, with  6 Threads 13.234 seconds
 True
 
-Par time, with  7Threads 15.747 seconds
+Par time, with  7 Threads 15.747 seconds
 True
 
-Par time, with  8Threads 15.312 seconds
+Par time, with  8 Threads 15.312 seconds
 True
 
-Par time, with  9Threads 17.628 seconds
+Par time, with  9 Threads 17.628 seconds
 True
 
-Par time, with  10Threads 16.386 seconds
+Par time, with  10 Threads 16.386 seconds
 True
 
-Par time, with  11Threads 16.307 seconds
+Par time, with  11 Threads 16.307 seconds
 True
 
-Par time, with  12Threads 17.098 seconds
+Par time, with  12 Threads 17.098 seconds
 True
 ```
 
