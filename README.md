@@ -1,0 +1,1 @@
+# In questo file troverai degli esercizi di Advance Programming in C++ svolti da Alessandro Castelli durante il corso di Advance Programming in c/c++ svolto presso l'università di klagenfurt nel semestre invernale del 2023
