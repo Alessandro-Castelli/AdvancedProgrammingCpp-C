@@ -1,3 +1,0 @@
-C:/Users/ales2/Desktop/Adcance Programming in C/Homework/Tutorial 1 exercise A/cmake-build-debug/CMakeFiles/Tutorial_1_exercise.dir
-C:/Users/ales2/Desktop/Adcance Programming in C/Homework/Tutorial 1 exercise A/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/ales2/Desktop/Adcance Programming in C/Homework/Tutorial 1 exercise A/cmake-build-debug/CMakeFiles/rebuild_cache.dir

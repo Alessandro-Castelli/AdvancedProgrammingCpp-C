@@ -1,4 +1,0 @@
-# ninja log v5
-958	1094	7195228088796277	Tutorial_1_exercise.exe	f381cfdc5923f99a
-1	152	7202115110403683	build.ninja	48755f8d41af7111
-5	958	7195228087446007	CMakeFiles/Tutorial_1_exercise.dir/MatrixMultiplication.cpp.obj	f617c583a37e2175

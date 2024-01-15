@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\Tutorial_1_exercise_B.dir/objects.a
-C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\ar.exe qc CMakeFiles\Tutorial_1_exercise_B.dir/objects.a @CMakeFiles\Tutorial_1_exercise_B.dir\objects1.rsp
-C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\Tutorial_1_exercise_B.dir/objects.a -Wl,--no-whole-archive -o Tutorial_1_exercise_B.exe -Wl,--out-implib,libTutorial_1_exercise_B.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Tutorial_1_exercise_B.dir\linkLibs.rsp
